@@ -1,0 +1,27 @@
+{
+  "name": "auth-curd-api2-otp",
+  "version": "1.0.13",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "common-function-api": "^1.0.17",
+    "express": "^4.19.2",
+    "factory-curd": "^1.0.12",
+    "factory-curd2": "^1.0.15",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "mongoose-aggregate-paginate-v2": "^1.1.0",
+    "mongoose-paginate-v2": "^1.8.2",
+    "nodemon": "^3.1.4",
+    "uninstall": "^0.0.0",
+    "uuid": "^10.0.0"
+  }
+}
