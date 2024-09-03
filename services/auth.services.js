@@ -50,7 +50,7 @@ module.exports.register = async (body) => {
         email: body.email,
         phoneNumber: body.phoneNumber,
         phoneOTP,
-        accountType: 'user',
+        accountType: body.accountType,
     };
     const user = await userService.createRecord(payload);
     console.log(payload);

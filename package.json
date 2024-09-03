@@ -1,6 +1,6 @@
 {
   "name": "auth-curd-api2-otp",
-  "version": "1.0.13",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
