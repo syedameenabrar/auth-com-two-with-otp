@@ -1,8 +1,8 @@
 const jwt = require("jsonwebtoken");
 const config = require("../config/index.js");
 const userService = require("../services/user.services.js");
-const { logger, AppError, } = require("common-function-api")
-// const { catchError } = require("common-function-api").catchError
+const { logger, AppError, } = require("database-connection-function-com")
+// const { catchError } = require("database-connection-function-com").catchError
 const {catchError} = require("../utils/catchError.js")
 
 module.exports.verifyJWT = catchError(async (req, _, next) => {

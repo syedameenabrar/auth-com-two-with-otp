@@ -1,5 +1,5 @@
 const userService = require("../services/user.services");
-const { logger, responser } = require("common-function-api")
+const { logger, responser } = require("database-connection-function-com")
 
 module.exports.getAllUsersPublic = async (req, res) => {
     logger.info("getAllUsersPublic");

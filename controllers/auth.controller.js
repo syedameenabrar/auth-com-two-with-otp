@@ -1,5 +1,5 @@
 const authService = require("../services/auth.services");
-const { logger, responser } = require("common-function-api")
+const { logger, responser } = require("database-connection-function-com")
 
 module.exports.register = async (req, res) => {
     logger.info("Creating The Register");

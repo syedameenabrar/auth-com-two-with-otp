@@ -1,7 +1,7 @@
 const express = require("express");
 const userRouter = express.Router();
 const userController = require("../controllers/user.controller");
-// const { catchError } = require("common-function-api")
+// const { catchError } = require("database-connection-function-com")
 const {catchError} = require("../utils/catchError")
 const authorized = require("../auth/verify");
 

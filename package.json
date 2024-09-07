@@ -1,6 +1,6 @@
 {
   "name": "auth-curd-api2-otp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,8 @@
   "dependencies": {
     "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
-    "common-function-api": "^1.0.17",
+    "database-connection-function-com": "^1.0.2",
     "express": "^4.19.2",
-    "factory-curd": "^1.0.12",
-    "factory-curd2": "^1.0.15",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.4",
     "mongoose-aggregate-paginate-v2": "^1.1.0",

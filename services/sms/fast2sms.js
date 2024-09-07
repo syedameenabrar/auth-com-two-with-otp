@@ -1,4 +1,4 @@
-const { logger, responser, AppError } = require('common-function-api');
+const { logger, responser, AppError } = require('database-connection-function-com');
 const axios = require('axios');
 const { SMS_API_KEY, FAST2SMS } = require('../../config/index');
 

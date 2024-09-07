@@ -1,4 +1,4 @@
-const { logger, AppError } = require('common-function-api');
+const { logger, AppError } = require('database-connection-function-com');
 const userService = require('./user.services');
 const bcrypt = require('bcryptjs');
 const tokenService = require('../middlewares/token');

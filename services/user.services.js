@@ -1,5 +1,5 @@
 const userModel = require("../models/user.model");
-const { logger, apiFeatures } = require("common-function-api")
+const { logger, apiFeatures } = require("database-connection-function-com")
 
 module.exports.createRecord = async (object) => {
     const record = await userModel.create(object);
